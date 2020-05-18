@@ -1,3 +1,4 @@
 metros = float (input ())
-conversao = metros / 100
+centimetros = metros * 100
+
 print (conversao)
