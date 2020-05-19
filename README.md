@@ -1,2 +1,2 @@
-# Python_Katie
-Minicurso na SECOMP 2019
+# Minicurso de Python_Katie
+SECOMP 2019
