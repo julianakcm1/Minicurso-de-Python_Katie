@@ -4,6 +4,6 @@ peso = float(input())
 print("Digite a altura:")
 altura = float(input())
 
-imc = peso / (altura*altura)
+imc = peso / (altura * altura)
 
 print("IMC =", imc)
