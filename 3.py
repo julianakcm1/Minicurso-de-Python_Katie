@@ -1,5 +1,5 @@
-print("Digite os segundos:")
-segundos = int(input())
+#print("Digite os segundos:")
+segundos = float(input("Digite a quantidade de segundos:\n"))
 
 horas    = segundos // 3600
 segundos = segundos % 3600 #pegar o resto
@@ -8,7 +8,5 @@ segundos = segundos % 60
 
 #horas = minutos / 60
 
-print(horas, "hora(s)", minutos, "minuto(s)", segundos, "segundo(s)")
-
-#segundos em float
-#print("{:.3f}h".format(horas), minutos, "min", segundos, "s")
+#print(horas, "hora(s)", minutos, "minuto(s)", segundos, "segundo(s)")
+print("{}h {}min {}s".format(horas, minutos, segundos))
