@@ -1,9 +1,8 @@
-print("Digite o peso:")
-peso = float(input())
+#print("Digite o peso:")
+peso = float(input("Digite o peso:\n"))
+#print("Digite a altura:")
+altura = float(input("Digite a altura:\n"))
 
-print("Digite a altura:")
-altura = float(input())
+imc = peso / (altura*altura)
 
-imc = peso / (altura * altura)
-
-print("IMC =", imc)
+print("IMC = {:.4f}".format(imc))
