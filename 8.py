@@ -1,5 +1,5 @@
 dicionario = {'nome': 'Juliana Melo', 'Idade': 'X', 'Cidade': 
 'X', 'Estado': 'X', 'Universidade': 'X',
-'Curso': 'X', 'Periodo': 'X'}
+'Curso': 'CC', 'Periodo': 'X'}
 
-print(dicionario)
+print(dicionario['nome'], dicionario['Curso'])
