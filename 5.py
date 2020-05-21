@@ -1,13 +1,10 @@
-def function (espaco, tempo):
-    velocidade_media = espaco/tempo
-    aceleracao = velocidade_media/tempo
-    print("Velocidade média = {:.5f}".format(velocidade_media))
-    print("Aceleração = {:.5f}".format(aceleracao))
+#sem usar a math
+def hipotenusa(cat_oposto, cat_adjacente):
+    hipotenusa = (cat_oposto**2 + cat_adjacente**2) ** (1/2)
+    return hipotenusa
 
-#print("Digite o espaço (em metros): ")
-espaco = float(input("Digite o espaço (em metros): "))
+cat_oposto = float(input("Digite o cateto oposto: "))
+cat_adjacente = float(input("Digite o cateto adjacente: "))
 
-#print("Digite o tempo (em segundos): ")
-tempo = float(input("Digite o tempo (em segundos): "))
-
-function(espaco, tempo)
+resultado = hipotenusa(cat_oposto, cat_adjacente)
+print("O valor da hipotenusa é: {}".format(resultado))
